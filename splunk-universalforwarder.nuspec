@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>splunk-universalforwarder</id>
+    <version>9.0.4</version>
+    <title>Splunk Universal Forwarder</title>
+    <authors>Splunk Inc</authors>
+    <projectUrl>https://www.splunk.com</projectUrl>
+    <tags>splunk logging</tags>
+    <summary>Splunk Universal Forwarder</summary>
+    <description>The universal forwarder collects data from a data source or another forwarder and sends it to a forwarder or a Splunk deployment</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
